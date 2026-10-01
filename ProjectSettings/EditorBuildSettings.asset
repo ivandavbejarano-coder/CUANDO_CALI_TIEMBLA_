@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    guid: fc7a33c8adcc6854d8ffc9a0ffce7502
+  - enabled: 1
+    path: Assets/Game/Scenes/Evento_SanFernando.unity
+    guid: beb37296132ebdc45b16a8e1d2e3cf34
+  - enabled: 1
+    path: Assets/Game/Scenes/MapaCapitulo1.unity
+    guid: baa0eea0c7895a748ba621a3b5010aa2
+  - enabled: 1
+    path: Assets/Game/Scenes/MenuInicio.unity
+    guid: c47a0e9fbd110c549bd5b41250e99736
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
