@@ -819,12 +819,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GestorDialogos
   textoNombre: {fileID: 1296025967}
   textoDialogo: {fileID: 688040266}
+  imagenPersonaje: {fileID: 1046149371}
   nombrePersonaje: Protagonista
   escenaRegreso: MapaCapitulo1
+  velocidadEscritura: 0.03
   lineasDeDialogo:
-  - "\xA1Hola!"
-  - "\xBFSentiste ese temblor?"
-  - Mejor reviso el mapa...
+  - expresionPersonaje: {fileID: 0}
+    texto: Hola?
+  - expresionPersonaje: {fileID: 0}
+    texto: Okey
+  - expresionPersonaje: {fileID: 0}
+    texto: ajajajjajaja
+  - expresionPersonaje: {fileID: 0}
+    texto: ummm bueno
 --- !u!4 &1419324539
 Transform:
   m_ObjectHideFlags: 0
